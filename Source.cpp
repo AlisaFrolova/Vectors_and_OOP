@@ -20,10 +20,7 @@ public:
 
     // delegated constructor 
     Player() : Player("None", "None", 0, "None") 
-    {
-        userID = ++nextID;
-        cout << "Object has been created" << ", ID = " << userID << endl;
-    }
+    {}
 
     // constructor with parameters without vector
     Player(const string& n,
